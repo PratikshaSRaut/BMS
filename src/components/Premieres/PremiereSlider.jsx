@@ -11,7 +11,7 @@ const PremiereSlider = (props) => {
     InitialSlide: 0,
     responsive: [
       {
-        breakpoints: 1024,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -19,7 +19,7 @@ const PremiereSlider = (props) => {
         },
       },
       {
-        breakpoints: 600,
+        breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -27,7 +27,7 @@ const PremiereSlider = (props) => {
         },
       },
       {
-        breakpoints: 480,
+        breakpoint: 480,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -38,7 +38,6 @@ const PremiereSlider = (props) => {
 
   const { posters, title, subtitle, config } = props;
   const currentSettings = config ? config : settings;
-
   return (
     <>
       <div className="flex flex-col items-start sm:ml-3 ml-0 my-2">
