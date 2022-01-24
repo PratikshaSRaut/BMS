@@ -63,6 +63,7 @@ const MoviePage = (props) => {
           slidesToShow: 5,
           slidesToScroll: 2,
           initialSlide: 2,
+          infinite: true,
         },
       },
       {
@@ -70,6 +71,7 @@ const MoviePage = (props) => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          infinite: true,
         },
       },
     ],
@@ -95,7 +97,7 @@ const MoviePage = (props) => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2,
+          infinite: true,
         },
       },
       {
@@ -103,6 +105,7 @@ const MoviePage = (props) => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
+          infinite: true,
         },
       },
     ],

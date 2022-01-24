@@ -23,7 +23,7 @@ const PremiereSlider = (props) => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          InitialSlide: 2,
+          infinite: true,
         },
       },
       {
@@ -31,6 +31,7 @@ const PremiereSlider = (props) => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
+          infinite: true,
         },
       },
     ],
