@@ -68,7 +68,13 @@ const CardSlider = () => {
   };
 
   return (
-    <div className="overflow-hidden py-6 px-6 bg-bms-400">
+    <div className="overflow-hidden pb-6 px-6 bg-bms-400">
+      <div className="enclose w-full flex justify-content-center container mx-auto py-9">
+        <img
+          src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/lead-in-v3-collection-202102040828.png"
+          alt="below"
+        ></img>
+      </div>
       <div className="text-2xl font-bold py-2">The Best of Entertainment</div>
       <PrevArrow className="left-6" />
 

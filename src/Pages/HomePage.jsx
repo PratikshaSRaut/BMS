@@ -43,11 +43,7 @@ function HomePage() {
       <HeroCarousel />
 
       <div className="pt-4 px-6 bg-bms-400">
-        <PremiereSlider
-          title="Recommended Movies"
-          posters={recommendedMovies}
-          isDark={false}
-        />
+        <PremiereSlider title="Recommended Movies" posters={recommendedMovies} />
       </div>
 
       <div className="">
@@ -67,7 +63,6 @@ function HomePage() {
             title="Premieres"
             subtitle="Brand new releases every Friday"
             posters={premierMovies}
-            isDark={true}
           />
         </div>
       </div>
@@ -77,7 +72,6 @@ function HomePage() {
           title="Online Streaming Event"
           subtitle=""
           posters={onlineStreamEvents}
-          isDark={false}
         />
       </div>
     </>

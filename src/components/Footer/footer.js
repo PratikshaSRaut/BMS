@@ -9,7 +9,7 @@ import {
 
 function footer() {
   return (
-    <div className="mt-8">
+    <div className="mt-8 hidden lg:inline">
       <div className="bg-bms-400 text-text-50">
         <div className="py-8 px-6">
           <div className="w-full">

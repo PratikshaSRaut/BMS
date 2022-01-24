@@ -176,7 +176,6 @@ const MoviePage = (props) => {
             config={settings}
             title="Recommended Movies"
             posters={similarMovies}
-            isDark={false}
           />
         </div>
 
@@ -185,12 +184,7 @@ const MoviePage = (props) => {
         </div>
 
         <div className="my-8">
-          <PremiereSlider
-            config={settings}
-            title="BMS XCLUSIVE"
-            posters={recommended}
-            isDark={false}
-          />
+          <PremiereSlider config={settings} title="BMS XCLUSIVE" posters={recommended} />
         </div>
       </div>
     </>
